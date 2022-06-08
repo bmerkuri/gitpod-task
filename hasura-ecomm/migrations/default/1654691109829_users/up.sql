@@ -8,5 +8,3 @@ CREATE TABLE IF NOT EXISTS "public"."users" (
  
 );
  
-INSERT INTO "users" ("id","name")
-VALUES(2,'oni');

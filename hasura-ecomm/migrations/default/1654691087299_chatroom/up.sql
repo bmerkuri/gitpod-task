@@ -1,5 +1,6 @@
 CREATE TABLE IF NOT EXISTS "public"."chatroom" (
  
+ 
   "id" INTEGER,
  
   "user_id" INTEGER NOT NULL,
@@ -10,5 +11,3 @@ CREATE TABLE IF NOT EXISTS "public"."chatroom" (
  
 );
  
- INSERT INTO "chatroom" ("id", "user_id","chat_name")
-VALUES (2, 1,'chat1');
